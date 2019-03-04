@@ -1,0 +1,83 @@
+/* MOBILE FIRT WIDTH: 320px */
+@media(min-width: 320px){
+/*  */
+.master-section {padding: 100px 0}
+.projects{background-color: rgb(24, 23, 23);}
+.projects h1{color: #ffffff;}
+.master-section h1{font-size: 2.5rem; margin-bottom: 50px; text-align: center;}
+
+.container{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;}
+.container .itens{margin-bottom: 50px;}
+
+.itens img{width: 300px}
+.itens article{width: 300px;}
+.projects h2, .projects p{color: #ffffff}
+.itens article h2{font-size: 1.7rem; text-align: center;}
+.itens article p{font-size:1.2rem;}
+.itens article p, .itens a{margin-left: 30px}
+}
+
+@media(min-width: 420px){
+/*  */
+.banner article{padding: 15% 0 0 15%;}
+.banner article p{font-size: 1.7rem; }
+
+.master-section h1{font-size: 2.5rem; margin-bottom: 50px; text-align: center;}
+
+.itens img{width: 400px}
+.itens article{width: 400px;}
+.itens article h2{font-size: 2.0rem;}
+.itens article p{font-size:1.4rem;}
+.itens article p, .itens a{margin-left: 60px}
+
+}
+
+@media(min-width: 640px){
+/*  */
+.banner article{padding: 15% 0 0 25%;}
+
+.itens img{width: 500px}
+.itens article{width: 500px;}
+.itens article p{font-size:1.5rem;}
+.itens article p, .itens a{margin-left: 30px}
+
+}
+
+@media(min-width: 720px){
+/*  */
+header nav{background-color: black; width: 100%; position: absolute; top: 0; left: 0;}
+
+/*  */
+.banner{background-image: url("../img/banner.png");  height: 500px; display: flex; flex-direction: column;
+    background-size:cover; background-position: center;}
+.banner article{padding: 20% 0 0 5%;}
+.banner article p{font-size: 1.7rem; }
+
+/*  */
+.projects{background-color: rgb(24, 23, 23);}
+.master-section h1{font-size: 2.5rem; margin-bottom: 50px; text-align: center;}
+.projects h1{color: #ffffff;}
+
+.container{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;}
+.container .itens{margin: 0 10px 50px 0;}
+.container .itens:last-child{margin: 0 0 0 0;}
+
+.itens img{width: 340px}
+.itens article{width: 340px;}
+.itens article h2{font-size: 2.0rem; text-align: center;}
+.itens article p{font-size:1.2rem;}
+.projects h2, .projects p{color: #ffffff}
+}
+
+@media(min-width: 900px){
+.banner article{padding: 10% 0 0 5%;}
+
+.container .itens{margin: 0 30px 50px 0;}
+.container .itens:last-child{margin: 0 0 0 0;}
+
+.itens img{width: 380px}
+.itens article{width: 380px;}
+
+}
+
+

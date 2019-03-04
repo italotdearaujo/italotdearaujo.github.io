@@ -1,0 +1,28 @@
+@charset "utf=8";
+/* ============= RESET AND MASTER CONFIGS============= */
+*{margin: 0px; padding: 0; color: #222; font-family: 'Rajdhani', sans-serif;}
+nav, ul{ list-style: none; }
+a{text-decoration: none; }
+hr{height: 1px;}
+
+.banner{background-image: url("../img/banner_mobile.jpg");  height: 100vh; display: flex; flex-direction: column;
+background-size:cover; background-position: center}
+.banner article{display: flex; flex-direction: column; justify-content: flex-end;padding: 20% 1px 0 20%; font-family: 'Rajdhani', sans-serif;}
+.banner article p{font-size: 1.3rem; color: #ffffff; }
+
+/*  */
+header{width: 100%; }
+header nav{background-color: black; width: 100%;}
+header nav ul{display: flex; justify-content: flex-start; padding: 20px 0}
+header nav li {margin: 0 20px 0 20px; font-size: 1rem; cursor: pointer;}
+header nav i, header nav a{color: #ffffff; opacity: 0.5;}
+header nav i, header nav a:hover{opacity: 1;}
+
+/*  */
+.itens article{margin-bottom: 15px}
+.itens a{color: #ffffff; background-color: #069; text-align: center; padding: 10px 15px; border-radius: 10px; box-shadow: 1px 1px 10px #000; transition: all .4s;}
+.itens a:hover{background-color: rgb(0, 153, 82);}
+
+/*  */
+footer{background-color: #000; height: 300px; display: flex; align-items: center; justify-content: center;}
+footer ul{display: flex; flex-direction: row; }
